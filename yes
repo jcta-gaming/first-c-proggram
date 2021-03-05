@@ -1,0 +1,26 @@
+using System;
+
+namespace first_c_sharp_app
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Title = "skynet";
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WindowHeight = 40;
+
+            Console.WriteLine("onece a pon a time the was a kid named");
+
+            Console.ReadLine();
+
+            Console.WriteLine("he was the best codder in the world");
+            Console.WriteLine("he could proggram in any proggraming language in the universe but his fav proggrming language was");
+
+            Console.ReadLine();
+
+            Console.WriteLine("and he was AMAZING at it ");
+        }
+    }
+}
