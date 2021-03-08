@@ -1,0 +1,50 @@
+using System;
+
+namespace first_c_sharp_app
+{
+    class Program
+    {
+
+        private static ConsoleColor getgreen()
+        {
+            return ConsoleColor.Green;
+        }
+
+        static void Main(string[] args)
+        {
+
+            Console.BackgroundColor = getgreen();
+
+
+            int num01;
+            int num02;
+            
+
+            Console.Write("input a number: ");
+
+            num01 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("input your second number: ");
+
+            num02 = Convert.ToInt32(Console.ReadLine());
+
+            Console.BackgroundColor = getBlue();
+
+            int result = num01 * num02;
+            int result2 = num01 / num02;
+            int result3 = num01 + num02;
+            int result4 = num01 - num02;
+            Console.WriteLine("your result in multyplication is: " + result);
+            Console.WriteLine("your result in division is: " + result2);
+            Console.WriteLine("your result in addition is: " + result3);
+            Console.WriteLine("your result in substraction is: " + result4);
+
+
+        }
+        private static ConsoleColor getBlue()
+        {
+            return ConsoleColor.Blue;
+        }
+    }
+}
+
